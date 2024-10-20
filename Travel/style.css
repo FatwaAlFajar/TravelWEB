@@ -51,17 +51,13 @@ section {
 }
 
 .heading {
-      background-size: 1000px !important;
+      background-size: 100% !important;
       background-position: center !important;
-      padding-top: 10rem;
-      padding-bottom: 15rem;
+      padding-top: 25rem;
+      padding-bottom: 5rem;
       display: flex;
       align-items: center;
       justify-content: center;
-
-
-      background-image: url(image/Bahome.jpg);
-      background-repeat: no-repeat;
 }
 
 .heading h1 {
