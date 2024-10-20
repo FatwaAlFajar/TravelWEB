@@ -95,11 +95,13 @@ section {
       left: 0;
       right: 0;
       z-index: 1000;
-      background-color: var(--white);
+      background-color: #FFFAFA;
       display: flex;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      box-shadow: var(--box-shadow);
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow lebih jelas */
       align-items: center;
       justify-content: space-between;
 }
@@ -107,6 +109,11 @@ section {
 .header .logo {
       font-size: 2.5rem;
       color: red;
+}
+
+.header .logo img {
+      max-width: 120px; /* Ubah ukuran logo agar lebih kecil */
+      height: auto;
 }
 
 .header .navbar a {
