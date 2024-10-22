@@ -241,6 +241,7 @@ section {
 
 .home-about .image {
       flex: 1 1 41rem;
+      
 }
 
 .home-about .image img {
@@ -276,7 +277,7 @@ section {
 }
 
 .home-packages .box-container .box {
-      border: var(--border);
+      border: none;
       box-shadow: var(--box-shadow);
       background: var(--white);
 }
@@ -405,7 +406,7 @@ section {
 
 .reviews .slide {
       padding: 2rem;
-      border: var(--border);
+      border: none;
       background: var(--white);
       text-align: center;
       box-shadow: var(--box-shadow);
@@ -442,7 +443,7 @@ section {
 .reviews .slide img {
       height: 7rem;
       width: 7rem;
-      border-radius: 50%;
+      border-radius: 30%;
       margin-top: 1rem;
 }
 
@@ -453,7 +454,7 @@ section {
 }
 
 .packages .box-container .box {
-      border: var(--border);
+      border: none;
       box-shadow: var(--box-shadow);
       background: var(--white);
       display: none;
@@ -464,7 +465,9 @@ section {
 .packages .box-container .box:nth-child(3),
 .packages .box-container .box:nth-child(4),
 .packages .box-container .box:nth-child(5),
-.packages .box-container .box:nth-child(6) {
+.packages .box-container .box:nth-child(6),
+.packages .box-container .box:nth-child(7),
+.packages .box-container .box:nth-child(8) {
       display: inline-block;
 }
 
@@ -565,7 +568,7 @@ section {
 
 .footer .box-container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
       gap: 1rem;
 }
 
@@ -589,7 +592,7 @@ section {
 }
 
 .footer .box-container .box a:hover i {
-      padding-right: 2rem;
+      padding-right: 1rem;
 }
 
 .footer .credit {
