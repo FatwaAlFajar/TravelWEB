@@ -241,6 +241,7 @@ section {
 
 .home-about .image {
       flex: 1 1 41rem;
+      padding-right: 40px;
       
 }
 
