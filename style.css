@@ -242,10 +242,10 @@ section {
 .home-about .image {
       flex: 1 1 41rem;
       padding-right: 40px;
-<<<<<<< HEAD
-=======
+
+
       
->>>>>>> 0cdc2f08eb5b1ced25da5ae75380e7daaa08fb51
+
 }
 
 .home-about .image img {
@@ -255,11 +255,11 @@ section {
 .home-about .content {
       flex: 1 1 41rem;
       padding: 3rem;
-<<<<<<< HEAD
+
       background: var(--light-bg);    
-=======
+
       background: var(--light-bg);
->>>>>>> 0cdc2f08eb5b1ced25da5ae75380e7daaa08fb51
+
 }
 
 .home-about .content h3 {
@@ -617,8 +617,6 @@ section {
 }
 
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -633,7 +631,9 @@ section {
 
 
 
->>>>>>> 0cdc2f08eb5b1ced25da5ae75380e7daaa08fb51
+
+
+
 /* media queries  */
 
 @media (max-width:1200px) {
