@@ -28,16 +28,32 @@ window.onscroll = () => {
 };
 
 // Swiper slider for home section
-var swiper = new Swiper(".home-slider", {
+var swiperHome = new Swiper(".home-slider", {
    loop: true,
    navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
    },
+   autoplay: {
+      delay: 6000,
+      disableOnInteraction: false,
+   },
+});
+
+var swiperHome = new Swiper(".homeindex-slider", {
+   loop: false,
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+   },
+   autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+   },
 });
 
 // Swiper slider for reviews section
-var swiper = new Swiper(".reviews-slider", {
+var swiperReviews = new Swiper(".reviews-slider", {
    grabCursor: true,
    loop: true,
    autoHeight: true,
