@@ -175,6 +175,16 @@ section {
       animation: fadeIn .2s linear backwards .4s;
 }
 
+.home .slide .content h3 {
+      font-size: 6vw;
+      color: var(--white);
+      text-transform: uppercase;
+      line-height: 1;
+      text-shadow: var(--text-shadow);
+      padding: 1rem 0;
+      animation: fadeIn .2s linear backwards .4s;
+}
+
 .home .slide .content .btn {
       animation: fadeIn .2s linear backwards .6s;
 }
