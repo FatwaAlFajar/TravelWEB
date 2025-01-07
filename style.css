@@ -373,6 +373,7 @@ section {
 
 .about .image img {
       width: 100%;
+      border-radius: 8%;
 }
 
 .about .content {
@@ -404,6 +405,7 @@ section {
       background: var(--light-bg);
       padding: 2rem;
       flex: 1 1 16rem;
+      border-radius: 5%;
 }
 
 .about .content .icons-container .icons i {
