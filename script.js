@@ -40,7 +40,7 @@ var swiperHome = new Swiper(".home-slider", {
    },
 });
 
-var swiperHome = new Swiper(".homeindex-slider");
+var swiperHome = new Swiper(".homeindex-slider", {});
 
 // Swiper slider for reviews section
 var swiperReviews = new Swiper(".reviews-slider", {
