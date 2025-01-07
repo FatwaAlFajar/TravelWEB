@@ -35,22 +35,12 @@ var swiperHome = new Swiper(".home-slider", {
       prevEl: ".swiper-button-prev",
    },
    autoplay: {
-      delay: 6000,
-      disableOnInteraction: false,
+      delay: 4000,
+      disableOnInteraction: true,
    },
 });
 
-var swiperHome = new Swiper(".homeindex-slider", {
-   loop: false,
-   navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-   },
-   autoplay: {
-      delay: 3000,
-      disableOnInteraction: false,
-   },
-});
+var swiperHome = new Swiper(".homeindex-slider");
 
 // Swiper slider for reviews section
 var swiperReviews = new Swiper(".reviews-slider", {
