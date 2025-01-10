@@ -33,9 +33,11 @@ var swiperHome = new Swiper(".home-slider", {
 var swiperHome = new Swiper(".homeindex-slider", {});
 
 const handleScroll = () => {
+   const isMobile = window.innerWidth <= 768;  // Bisa sesuaikan dengan breakpoint yang diinginkan
    animateOnScrollElements.forEach(el => {
        const rect = el.getBoundingClientRect();
-       if (rect.top <= window.innerHeight - 100) {
+       const offset = isMobile ? 50 : 100;  // Mengurangi jarak offset untuk mobile
+       if (rect.top <= window.innerHeight - offset) {
            el.classList.add('active');
        }
    });
