@@ -25,7 +25,7 @@
 .animate-on-scroll {
       opacity: 0;
       transform: translateY(50px);
-      transition: all 0.6s ease-in-out;
+      transition: all .6s ease-in-out;
 }
   
 .animate-on-scroll.active {
@@ -55,12 +55,6 @@ section {
       padding: 5rem 10%;
 }
 
-@keyframes fadeIn {
-      0% {
-            transform: scale(0);
-            opacity: 0;
-      }
-}
 
 .heading {
       background-size: 100% !important;
@@ -178,7 +172,7 @@ section {
       animation: fadeIn .2s linear backwards .2s;
 }
 
-.home .slide .content h3 {
+.home .slide .content  h3{
       font-size: 6vw;
       color: var(--white);
       text-transform: uppercase;
@@ -372,7 +366,15 @@ section {
 .packages .box-container .box:nth-child(5),
 .packages .box-container .box:nth-child(6),
 .packages .box-container .box:nth-child(7),
-.packages .box-container .box:nth-child(8) {
+.packages .box-container .box:nth-child(8),
+.packages .box-container .box:nth-child(9),
+.packages .box-container .box:nth-child(10),
+.packages .box-container .box:nth-child(11),
+.packages .box-container .box:nth-child(12),
+.packages .box-container .box:nth-child(13),
+.packages .box-container .box:nth-child(14),
+.packages .box-container .box:nth-child(15),
+.packages .box-container .box:nth-child(16) {
       display: inline-block;
 }
 
@@ -458,16 +460,15 @@ section {
 
 /* media queries  */
 
-@media (max-width:1200px) {
-
-      section {
-            padding: 3rem 5%;
-      }
+.animate-on-scroll.active {
+      animation: fadeIn .2s linear backwards .4s;
+  }
+  
+  @media (max-width:1200px) {
       .animate-on-scroll.active {
-            animation: fadeInMobile 1s ease-in-out;
-        }
-
-}
+          animation: fadeInMobile 1s ease-in-out;
+      }
+  }
 
 @media (max-width:991px) {
 
@@ -488,6 +489,14 @@ section {
       }
 
 }
+
+.toggle-dark-mode {
+      transition: transform 0.3s, opacity 0.3s ease-in-out;
+    }
+    
+    .toggle-dark-mode:hover {
+      transform: scale(1.1); /* Membesarkan ikon saat hover */
+    }
 
 @media (max-width:768px) {
 
@@ -545,3 +554,11 @@ section {
             animation: fadeInMobile 1s ease-in-out;
         }
 }
+
+#toggle-dark-mode {
+      transition: transform 0.3s, opacity 0.3s ease-in-out;
+    }
+    
+    #toggle-dark-mode:hover {
+      transform: scale(1.1); /* Membesarkan ikon saat hover */
+    }
